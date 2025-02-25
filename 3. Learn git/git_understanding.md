@@ -33,5 +33,3 @@
 📌 How does it compare to manually reviewing commits?
 
 - It saves time consuming to search for the bug comparing to the manual checking process.
-
-Modify to test Advanced Git Commands & When to Use Them #47
