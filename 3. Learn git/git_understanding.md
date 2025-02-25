@@ -33,3 +33,15 @@
 📌 How does it compare to manually reviewing commits?
 
 - It saves time consuming to search for the bug comparing to the manual checking process.
+
+📌 What does each command do?
+The git checkout <branch> -- <file> is use to restore a specific file.
+git log command is the simple on which view the history of the commits within the branch.
+The git cherry-pick <commit> will apply specific commit from another branch and avoiding merging and changing the whole branch.
+git blame <file> is used to view the records of the coder of each line within the file
+
+📌 When would you use it in a real project (hint: these are all really important in long running projects with multiple developers)?
+I usually use git log and git blame more regularly comparing to other commands. In my personally idea, i think the git cherry-pick will be more useful within the team environment to ensure merging the adjusted part only from member's branch without affecting the main's components to avoid bugs.
+
+📌 What surprised you while testing these commands?
+I mistake the way to use git checkout and git cherry-pick command and did not see much changes after using them but I believe it gonna be helpful in the future.
