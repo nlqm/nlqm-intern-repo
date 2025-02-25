@@ -55,3 +55,13 @@ I usually use the GitHub website to review them with my team members or supervis
 
 📌 What did you learn?
 Always review the conflicts and solve them with care and attention. It would be better if I can review it with others such as my team mates or supervisor. Handling everything with care could help reducing possible serious problems in the future.
+
+Branching & Team Collaboration #49
+📌 Why is pushing directly to main problematic?
+As working in a team, ensuring the code base is safe as a backup is extremely important. If pushing all changes to main branch, it is difficult to trace back the safe code base to restart when we needed. By keeping main branch safe, the team could go back the safe backup anytime which is time saving and efficient.
+
+📌 How do branches help with reviewing code?
+Creating different branch for each member could help all members of the team quickly know the process of the member by reviewing commit history of that member's branch. Reviewing merge conflicts when member creating pull requests allows supervisor or other members rapidly review the changes between the current and the new branch. Conflicts revolving process is also the method to review code with the code base.
+
+📌 What happens if two people edit the same file on different branches?
+If people edit the same file on different branch, it could help reducing file overwrite and clashing comparing to 2 people pushing changes within the same file on the same branch.
