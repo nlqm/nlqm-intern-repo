@@ -65,3 +65,13 @@ Creating different branch for each member could help all members of the team qui
 
 📌 What happens if two people edit the same file on different branches?
 If people edit the same file on different branch, it could help reducing file overwrite and clashing comparing to 2 people pushing changes within the same file on the same branch.
+
+Git concept: staging vs committing #50
+📌 What is the difference between staging and committing?
+Stagging is creating the making the changes on without affecting the repo, can be modified by use git checkout or git reset command and do not require push. Committing is actually saving changes in local git history by pushing new commit and cannot be modified after pushing.
+
+📌 Why does Git separate these two steps?
+From my personal opinion, it gives coder choices to make the changes, edit the files and checking for bugs before actually creating a commit by pushing changes on GitHub to affect the repo.
+
+📌 When would you want to stage changes without committing?
+From my personal experiences, I use stagging to code the new functions or modify the functions and only committing after testing and ensure it worked as I intended.
