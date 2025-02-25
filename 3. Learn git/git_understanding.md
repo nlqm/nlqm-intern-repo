@@ -45,3 +45,13 @@ I usually use git log and git blame more regularly comparing to other commands. 
 
 📌 What surprised you while testing these commands?
 I mistake the way to use git checkout and git cherry-pick command and did not see much changes after using them but I believe it gonna be helpful in the future.
+
+Merge Conflicts & Conflict Resolution #48
+📌 What caused the conflict?
+By making big alternations in the new branch comparing to the main branchs, GitHub makes sure that you review those changes by resolving each conflicts to avoid wrong or accidental merging between branchs and protect the main branch therefore avoid broken codes.
+
+📌 How did you resolve it?
+I usually use the GitHub website to review them with my team members or supervisors if possible to ensure the conflicts are solved without creating new problems to the code base
+
+📌 What did you learn?
+Always review the conflicts and solve them with care and attention. It would be better if I can review it with others such as my team mates or supervisor. Handling everything with care could help reducing possible serious problems in the future.
