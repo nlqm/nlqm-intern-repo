@@ -1,0 +1,29 @@
+name: Markdown Lint and Spell Check
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint-spellcheck:
+    name: Markdown Lint and Spell Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v4
+
+      # Markdown Linting
+      - name: Run Markdown Linter
+        uses: avto-dev/markdown-lint@v1
+        with:
+          config: ".markdownlint.json" # Config file
+
+      # Spell Checking
+      - name: Run Spell Checker
+        uses: streetsudesiftware/cspell-action@v6
+        with:
+          config: ".cspell.json" # Config data
+          strict: true # Stop pushing files if spelling are wrong
+          files: "**/*.md"
