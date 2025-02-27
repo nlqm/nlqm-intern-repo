@@ -7,3 +7,10 @@ Within this code base, I did not implement any math functions to face the issues
 
 📌 What issues did you find while testing?
 There are some common issues I found while testing which are: lack of guard clauses within conditions, forgot to early validating inputs, not handling enough edge cases by sanitizing inputs, validating input types before processing and returning error when needed.
+
+Commenting & Documentation #37
+📌 When should you add comments?
+I add comments to explain the code, not details what the code about, demonstrate complex logic, and clarify limitations about the function.
+
+📌 When should you avoid comments and instead improve the code?
+Avoiding add comments when the logic is obvious and simple, should not explaining the basic syntax and always updating comments when changing or improving the code.
