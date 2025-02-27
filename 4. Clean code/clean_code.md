@@ -28,3 +28,10 @@ Duplicate code could cause clash, unexpected results or unwanted errors. It coul
 
 📌 How did refactoring improve maintainability?
 By simplifying. refactoring and extracting methods, the maintainability of the program will be easier and more consistent. Some simple or unexpected bugs are also be fixed.
+
+Writing Small, Focused Functions #40
+📌Why is breaking down functions beneficial?
+Overcomplicated functions could bring unexpected bugs by overwriting results. Simple functions are also more quick to debug, update and maintain. They could help the team collaboration by providing simple function, other teammates could rapidly understand the functions therefore picking up the workflow efficiently.
+
+📌 How did refactoring improve the structure of the code?
+Refactoring includes splitting complicated and multifunction methods into separate methods or improving code aims to reduce code duplication and improve maintainability. By applying this methodology into the code structure, the program will be easier to maintain, reduce bugs, enhance reusability and improve readability.
