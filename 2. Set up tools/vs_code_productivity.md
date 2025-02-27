@@ -1,4 +1,5 @@
 📌 Top 10 shortcuts:
+
 1. Ctrl B: open explorer
 2. Alt Z: Word wrap
 3. Ctrl Alt `: open terminal
@@ -7,7 +8,7 @@
 6. Ctrl Z: undo
 7. Alt up arrow: move line up
 8. Ctrl Tab: switch tab
-9. Ctrl P: Find 
+9. Ctrl P: Find
 10. Home or End: Move cursor to the end or beginning
 
 📌 Which shortcuts do you think will be the most useful in your daily work?

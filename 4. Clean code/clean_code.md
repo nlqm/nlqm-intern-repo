@@ -45,3 +45,13 @@ Some common mistakes could be causes by poorly named variables are: confusing ot
 
 📌 How did refactoring improve code readability?
 Refactoring code for more clear and precise variables and functions's name help the code base becomes more readable and self-explanatory by itself. Example: - Bad: return t - Good return total
+
+Code Formatting & Style Guides #42
+📌 Why is code formatting important?
+Assuring the consistent code base helps avoiding undesirable bugs, and improve the readability. By keeping those format and style guides in practice, it will be easier and quicker to update, maintain and share for others.
+
+📌 What issues did the linter detect?
+From my memory, some issues that linter detect are: exceeded line length, unused variables, inconsistent naming conventions, incorrect indentation, whitespace, and unreachable code.
+
+📌 Did formatting the code make it easier to read?
+It does help the code easier to read, consistent code style, improve collaboration and reduce the bugs within the code thanks to linter help such as detecting inconsistent naming conventions, unused variables or unreachable code.

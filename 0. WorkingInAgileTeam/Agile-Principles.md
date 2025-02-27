@@ -23,4 +23,4 @@
         - Challenge: lack of documentation and predeictability.
 
     2. How can Agile principles help improve your role and responsibilities?
-        - By applying agile principles, I could focus more abt interactions between coworkers and software by themselves rather than spending more time on documentation. Coping repidly with changes is also a vital trait that I need to apply to be more proactive and flexible which can help me within my following career. 
+        - By applying agile principles, I could focus more abt interactions between coworkers and software by themselves rather than spending more time on documentation. Coping repidly with changes is also a vital trait that I need to apply to be more proactive and flexible which can help me within my following career.

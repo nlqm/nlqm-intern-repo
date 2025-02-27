@@ -1,11 +1,7 @@
 {
-    "version": "0.2",
-    "language": "en",
-    "ignorePaths": [
-        "node_modules/**",
-        "dist/**",
-        ".git/**"
-    ],
-    "dictionaries": ["softwareTerms", "en_US"],
-    "files": ["**/*.md"]
+  "version": "0.2",
+  "language": "en",
+  "ignorePaths": ["node_modules/**", "dist/**", ".git/**"],
+  "dictionaries": ["softwareTerms", "en_US"],
+  "files": ["**/*.md"]
 }
