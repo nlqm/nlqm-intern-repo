@@ -1,4 +1,6 @@
 Writing Unit Tests for Clean Code #35
+![First test result](image.png)
+![Second test result](image-1.png)
 
 📌 How do unit tests help keep code clean?
 Within this code base, I did not implement any math functions to face the issues creating by lacking handling errors and edge cases. However, based on my previous experiences, by creating and maintaining unit tests, the code base has the general filter to minimize the possible proportions of bugs that could be caused by simple problems.
