@@ -21,3 +21,10 @@ In my old Java project, there were some extreme complex functions which handle s
 
 📌 How did refactoring improve it?
 Refactoring, and extracting methods to simplify the complicated functions help easily detecting bugs because each function has their own missions now. Renaming variables and functions to more descriptive names to quickly understand for other members.
+
+Avoiding Code Duplication #39
+📌 What were the issues with duplicated code?
+Duplicate code could cause clash, unexpected results or unwanted errors. It could cause more time in debugging and updating code due to the function or variable duplication.
+
+📌 How did refactoring improve maintainability?
+By simplifying. refactoring and extracting methods, the maintainability of the program will be easier and more consistent. Some simple or unexpected bugs are also be fixed.
