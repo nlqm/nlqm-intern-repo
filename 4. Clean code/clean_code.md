@@ -35,3 +35,13 @@ Overcomplicated functions could bring unexpected bugs by overwriting results. Si
 
 📌 How did refactoring improve the structure of the code?
 Refactoring includes splitting complicated and multifunction methods into separate methods or improving code aims to reduce code duplication and improve maintainability. By applying this methodology into the code structure, the program will be easier to maintain, reduce bugs, enhance reusability and improve readability.
+
+Naming Variables & Functions #41
+📌 What makes a good variable or function name?
+Ensuring to name variables and functions based on each programming language rules or company rules such as camel case for Java, avoid using -, etc. Precise, unique and providing enough meanings for that variables and functions while naming them.
+
+📌 What issues can arise from poorly named variables?
+Some common mistakes could be causes by poorly named variables are: confusing other people when they read or review your code, duplicating code therefore causes bugs, and time consuming when find the variables.
+
+📌 How did refactoring improve code readability?
+Refactoring code for more clear and precise variables and functions's name help the code base becomes more readable and self-explanatory by itself. Example: - Bad: return t - Good return total
