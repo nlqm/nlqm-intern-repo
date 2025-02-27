@@ -14,3 +14,10 @@ I add comments to explain the code, not details what the code about, demonstrate
 
 📌 When should you avoid comments and instead improve the code?
 Avoiding add comments when the logic is obvious and simple, should not explaining the basic syntax and always updating comments when changing or improving the code.
+
+Refactoring Code for Simplicity #38
+📌 What made the original code complex?
+In my old Java project, there were some extreme complex functions which handle so many aspects. It can cause misunderstand problems or unexpected results because so many things run at the same time and they accidentally overwrite each others.
+
+📌 How did refactoring improve it?
+Refactoring, and extracting methods to simplify the complicated functions help easily detecting bugs because each function has their own missions now. Renaming variables and functions to more descriptive names to quickly understand for other members.
