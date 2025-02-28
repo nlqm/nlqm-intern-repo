@@ -20,3 +20,7 @@ One of the biggest pitfalls I have faced is hard to understand because the class
 Working with Lists & User Input #25
 📌 What are some common issues when working with lists in React?
 Sometimes the function that I created to update in the list did not work because I forgot to assign the method in the button. I also need to recheck the React component page because I did not remember the syntax of React.
+
+Navigation with React Router #22
+📌 What are the advantages of client-side routing?
+It provides faster navigation such as reloading the changing components instead of refreshing the whole page, less server load, and better user experience with fewer disruptions. However, it is great for single page applications comparing to multiple-page app.
