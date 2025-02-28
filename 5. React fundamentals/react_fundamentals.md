@@ -16,3 +16,7 @@ By using TailwindCSS, it already provided tons of classes to flexible apply and 
 
 📌 What are some potential pitfalls?
 One of the biggest pitfalls I have faced is hard to understand because the class name will get long, messy and hard to understand.
+
+Working with Lists & User Input #25
+📌 What are some common issues when working with lists in React?
+Sometimes the function that I created to update in the list did not work because I forgot to assign the method in the button. I also need to recheck the React component page because I did not remember the syntax of React.
