@@ -17,3 +17,13 @@ Some cases that we should avoid using useMemo are: the calculations are not to c
 
 📌 What happens if you remove useMemo from your implementation?
 IF I remove useMemo from my implementation, the calculation will be redo every render which is not necessary. For example, there are 5 different methods in the app. Without useMemo, the complicated calculation is still triggered every time other methods get click which is not ideal and slow down performance.
+
+Preventing Unnecessary Renders with useCallback #19
+📌 What problem does useCallback solve?
+useCallBack is used to prevent function recreation on every renders therefore optimizing child components and increasing application performance. useCallBack can also combine with React.memo to pass functions as props to be memoized.
+
+📌 How does useCallback work differently from useMemo?
+These 2 are quite similar but requiring different type of inputs. useMemo is allowed for a computed values only for complicated calculations, while useCallBack is used to store method such as passing functions as props to child components.
+
+📌 When would useCallback not be useful?
+There are some cases that useCallBack is unnecessary such as the functions are not required to passed to child components, the functions is simple, and the functions is updated regularly.
