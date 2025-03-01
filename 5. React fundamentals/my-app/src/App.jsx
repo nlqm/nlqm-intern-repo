@@ -1,6 +1,7 @@
 import { useCallback, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import "./i18n";
 import './App.css'
 import HelloWorld from './components/HelloWorld'
 import Counter from './components/Counter'
@@ -13,6 +14,7 @@ import LargeNumbers from './components/LargeNumbers'
 import ChildComponent from './components/ChildComponent'
 import Form from './components/CustomForm'
 import CustomForm from './components/CustomForm'
+import LanguageSwitcher from './components/LanguageSwitcher'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -79,6 +81,11 @@ function App() {
 
       <div className='m-4 justify-center text-white'>
         <CustomForm />
+      </div>
+      <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
+
+      <div className='m-4 justify-center text-white'>
+        <LanguageSwitcher />
       </div>
     </div>
   )
