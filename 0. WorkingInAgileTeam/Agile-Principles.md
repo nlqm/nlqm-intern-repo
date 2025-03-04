@@ -4,13 +4,13 @@
         - Agile approach works well with rapidly changing environment especially tech industry. By regularly updating, this method help the team quickly adjust to new requirements.
 
     2. What are the core values and principles of Agile?
-        1. Individuals and interactions > priocesses and tools
+        1. Individuals and interactions > processes and tools
         2. Working software > comprehensive doc
         3. Customer collab > contract negotiation
         4. Responding to changes > following plans
 
     3. What are the differences between Scrum and Kanban, and when is each used?
-        - Kanban: focuses on maintaining a continuos flow of work with limiting amounf of WIP. More accuratelty predicting delivery times with lead times.
+        - Kanban: focuses on maintaining a continuos flow of work with limiting amount of WIP. More accurately predicting delivery times with lead times.
         - Scrum: relies on iterative, short-term sprints to develop and deliver work. Better with regular releases
 
     4. Why does Focus Bear lean towards Kanban instead of Scrum?
@@ -20,7 +20,7 @@
 
     1. What do you think are the biggest benefits and challenges of Agile?
         - Benefit: increase flexibility which is really important for tech project.
-        - Challenge: lack of documentation and predeictability.
+        - Challenge: lack of documentation and predictability.
 
     2. How can Agile principles help improve your role and responsibilities?
-        - By applying agile principles, I could focus more abt interactions between coworkers and software by themselves rather than spending more time on documentation. Coping repidly with changes is also a vital trait that I need to apply to be more proactive and flexible which can help me within my following career.
+        - By applying agile principles, I could focus more abt interactions between coworkers and software by themselves rather than spending more time on documentation. Coping rapidly with changes is also a vital trait that I need to apply to be more proactive and flexible which can help me within my following career.
