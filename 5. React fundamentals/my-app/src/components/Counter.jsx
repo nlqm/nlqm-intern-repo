@@ -1,17 +1,18 @@
 import React, { useState } from 'react'
 import { useSelector, useDispatch } from "react-redux"
-import { increment, decrement, reset } from "../redux/counterSlice"
+import { increment, decrement, reset, selectCounterValue } from "../redux/counterSlice"
+import Button from './Button'
 
 const Counter = () => {
-  const count = useSelector((state) => state.counter.value);
+  const count = useSelector(selectCounterValue);
   const dispatch = useDispatch();
 
   return (
     <div>
         <h2>This is the Count components: {count}</h2>
-        <Button onClick={() => dispatch(increment())} title="Increase + " />
-        <Button onClick={() => dispatch(decrement())} title="Decrease - " />
-        <Button onClick={() => dispatch(reset())} title="Reset - " />
+        <Button onClick={() => dispatch(increment())} title="➕ Increment" />
+        <Button onClick={() => dispatch(decrement())} title="➖ Decrement" />
+        <Button onClick={() => dispatch(reset())} title="🔄 Reset" />
     </div>
   )
 }
