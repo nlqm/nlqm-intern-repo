@@ -8,3 +8,7 @@ I have to say I have not used both of those styles, I personally prefer using Ta
 
 📌 How would you handle different screen sizes in React Native?
 I used TailwindCSS with react-native-responsive and have not had problems with different screen sizes. I did do some additional researchs to know what other options and they are: useWindowDimensions() from react native. THis can help the design automatically updates on dimension changes.
+
+![React Native code using TailwindCSS for styling](image-2.png)
+
+![Test run on Expo iOS app](image-3.png)
