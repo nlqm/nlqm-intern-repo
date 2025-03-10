@@ -1,5 +1,5 @@
 User Manual for Mia
-My role - I am working on React Native development - The days and times I work are: Wednesday and Friday
+My role - I am working on React Native development - The days and times I work are: Monday and Friday
 
 How I Work Best - I do my best work when I had my morning coffee. - I struggle when I need to postpone my current work for new things coming up
 
