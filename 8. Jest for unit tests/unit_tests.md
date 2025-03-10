@@ -18,3 +18,11 @@ By using Jest & React Testing Library, it provides the accessibility for develop
 
 📌 What challenges did you encounter when simulating user interaction?
 One of the disadvantages I encountered is knowing when to use fireEvent or userEvent. Despite understanding that fireEvent triggered the event instantly and userEvent allowed action delay to mimic user behaviour, sometimes it is hard to decide which should be used. Another problem of userEvent is calculating the amount of delay time is difficult while develope has to ensure that the time is resonable enough to mimic user interaction in real life. Mistyping the text is also another problem that I need to fix while writing test cases. Sometimes the test case just fails because I typed the wrong text compared to the text in the component. 
+
+Mocking API Calls in Jest #14
+
+📌 Why is it important to mock API calls in tests?
+By mocking API calls, testers or developers could receive the results more quickly without the need of accessing internet therefore the test cases will be tested rapidly, reliable with immediate responses. This method is also allowed developers to test the function without the access of API calls and easier to test edge cases or different scenarios such as slow response, errors 404 or server errors.
+
+📌 What are some common pitfalls when testing asynchronous code?
+The first time writing the test for API I forgot to use waitFor() and the test failed because the element had not appeared yet to be tested. There are some tests failed because lacking of reject promise handlings. After few times I realised that I have to use mockRejectValue() to simulate value otherwise the test would be failed.
