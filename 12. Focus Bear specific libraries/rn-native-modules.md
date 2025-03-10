@@ -1,0 +1,10 @@
+Using Native Modules and Bridging in React Native #73
+
+📌 Why would you need to use native modules in a React Native app?
+There are some specific functions of the phone that you need to access in the phone in order to finish the task such as checking your location with GPS, taking a picture with your phone camera, or connect with other devices by turning on your Bluetooth. To gain the access from your app to those functions in the phone, native modules are required as the bridge to connect the app with the phone camera, GPS, etc.
+
+📌 How does React Native communicate with native code?
+Due to my research, React Native requires the bridge to communicate with the phone's native code such as Java or Kotlin for Android and Swift or Objective-C for iPhones. The process starts with the React Native code in our app send the request through the bridge such as "connect to GPS to know current location", the bridge translate it to the phone's native code, the phone's native code understand and does the job, the result such as the current location data is sent back to our app. From my understanding, it could be like someone speak English use Google Translate to translate their question to the residence who only knows Japanese.
+
+📌 What are some challenges of maintaining native bridges?
+From my research, the first issue is system of both React Native and phone are required to update regularly or the bridge might be outdated and broke. The second problem is the speed, using bridge could slow things down especially in peaked hour, the example is talking in Japanese to a Japanese person is quicker than using Google Translate to convey your idea in English to a Japanese. The third challenge is the amount of code will be added and therefore the maintainance and debugging process will be more complicated. Ensuring that the app work on both Android and iOS means we need to have separate native code for 2 systems is another drawback.
