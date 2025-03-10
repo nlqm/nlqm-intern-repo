@@ -26,3 +26,12 @@ By mocking API calls, testers or developers could receive the results more quick
 
 📌 What are some common pitfalls when testing asynchronous code?
 The first time writing the test for API I forgot to use waitFor() and the test failed because the element had not appeared yet to be tested. There are some tests failed because lacking of reject promise handlings. After few times I realised that I have to use mockRejectValue() to simulate value otherwise the test would be failed.
+
+Testing Redux with Jest #13
+
+📌 What was the most challenging part of testing Redux?
+For me it is hard to create the test case for Redux by myself, the Redux test case for this task were the product after researching some other's recommendations on Stackoverflow and GPT to explain to me the step to create the Redux testing case. During to the recommendations on Stackoverflow, they mentioned about applying middleware in testing but when I config it in the test case, the tests failed. After few times trying, I took it out and the test cases passed so for me apply middleware is tricky while testing Redux with Jest.
+
+📌 How do Redux tests differ from React component tests?
+From my point of view, React component tests are more about testing UI and component behaviors after user interacting with them. In that case, user simulation test cases are created to ensure that the components behave as expected with or without user interactions and between related components. 
+With Redux test cases, they mostly focus on checking the states and actions, are they updated correctly based on the actions, testing async actions to assure the store behaving as expected is important as well. With that aims in mind, Redux test cases that I created need to verify the actions,and state changes when the state updates.
